@@ -1,0 +1,145 @@
+/* Typography */
+
+body {
+    font-size: 14px;
+    font-family: "Raleway",sans-serif;
+    color: white;
+}
+
+.storage-usage > p {
+    font-weight: 400;
+}
+
+.gb-markdown > span {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* Layout */
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    
+    width: 60vw;
+    height: 25vh;
+
+    margin-bottom: 2.75rem;
+}
+
+/* Fylo Main Layout */
+.fylo-main {
+    width: 22.5vw;
+    margin-right: 1.5rem;
+    padding: 1.75rem 0 0 1.75rem;
+}
+
+
+.button-layout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 60%;
+    margin-top: 1rem;    
+}
+
+/* Storage Usage Layout */
+.storage-usage{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+
+    padding: 1rem 0 0 1.75rem;
+    width: 35vw;
+    height: 75%;
+}
+
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+
+    height: 10%;
+    width: 85%;
+
+    margin-bottom: 0.50rem;
+    margin-left: .2rem;
+}
+
+.progress {
+    display: flex;
+    justify-content: end;
+
+    width: 81.5%;
+    height: 70%;
+    margin-left: .2rem;
+    
+}
+
+.progress-dot {
+    height: .5rem;
+    width: .5rem;
+}
+
+.gb-markdown{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* General Styles */
+
+.fylo-main{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: .5rem 5rem .5rem .5rem;
+}
+
+.color-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(229, 57%, 11%);
+    border-radius: .5rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.storage-usage {
+    background-color: hsl(228, 56%, 26%);
+    border-radius: .5rem;
+}
+
+.progress-bar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 0.5rem;
+    
+}
+
+.progress {
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: .5rem;
+}
+
+.progress-dot {
+    background-color: white;
+    border-radius: 100%;
+}
+
+/* Background */
+
+body {
+    background-color: hsl(229, 57%, 11%)    ;
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
