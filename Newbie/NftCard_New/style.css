@@ -1,0 +1,104 @@
+/* Typography */
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    
+}
+
+p {
+    font-size: 0.95rem;
+    font-weight: 50;
+    color: hsl(215, 51%, 70%);
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.price-info {
+    font-weight: 600;
+}
+
+.eth-price{
+    color: hsl(178, 100%, 50%);
+}
+
+.time-left{
+    color: hsl(215, 51%, 70%);
+}
+
+/* Layout */
+
+.container {
+    margin: 0% auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    width: 30%;
+}
+
+.main-section{
+    margin: 0% 1em;
+}
+
+.main-section p {
+    line-height: 1.5em;
+}
+
+#main-img {
+
+    border-radius:.5em;
+    max-width: 90%;
+    
+}
+
+#view-icon {
+    display: none;
+}
+
+.price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.profile-info {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-top: 1em;
+    padding: 1em .5em 1.5em 0em;
+    display: flex;
+    align-items: center;
+}
+
+.profile-info  span {
+    padding: 0.2em 0em 0em 1em;
+}
+
+#creator-img {
+    max-width: 10%;
+    max-height: 10%;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+@media (max-width: 375px){
+    .container {
+        width: 90%;
+        /* border: 1px solid magenta; */
+    }
+
+    #main-img {
+        margin: 1em 1em;
+    }
+
+
+}
+
+@media (min-width: 720px){
+    #main-img{
+        margin: 1.3em;
+    }
+
+}

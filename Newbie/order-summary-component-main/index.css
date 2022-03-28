@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display',sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    position: relative;
+    max-width: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.main-card {
+    max-width: 25vw;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.order-text-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.order-text-main > h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.order-text-main > p {
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.pricing-section{
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    text-align: center;  
+    align-items: center; 
+    border-radius: 1rem;
+    height: 10vh;
+    max-width: 80%;
+    margin-left: 10%;
+    
+}
+
+.plan {
+    padding-right: 25%;
+    padding-left: 5%;
+    text-align: center;
+  
+}
+
+.plan > h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    margin: 0px;
+}
+
+.plan > p {
+    font-size: 0.75rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    margin: 0px;
+}
+
+#change-plan {
+    font-size: 0.8rem;
+}
+
+.button-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+#proceed-button {
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+    padding: 2%;
+    width: 90%;
+}
+
+#cancel-button {
+    border: none;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-top: 2%;
+}

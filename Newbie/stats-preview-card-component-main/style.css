@@ -1,0 +1,107 @@
+    #main-img{
+        position: relative;
+        max-width: 100%;
+        border-radius: 5px 5px 0px 0px;        
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+        box-sizing: border-box;
+    }
+    
+    .main-card {
+        background-color: hsl(244, 38%, 16%);
+        text-align: center;
+        border-radius: 5px;
+        max-width: 90%;
+    }
+    .text-card {
+        max-width: 90%;
+        padding: 5%;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    p{
+        margin: 0px;
+    }
+
+    
+    .stats-number {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: white;
+    }
+    
+    .stats-card div{
+        padding: 5%;
+    }
+    
+    .main-p {
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .accent {
+        color: hsl(277, 64%, 61%);
+    }
+    .stats-card{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca';
+    }
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter';
+    font-size: 15px;
+    color: white
+}
+
+@media (min-width:1000px){
+    
+    .main-card {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: 70vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        height: 40vh;
+        padding: 0%;
+    }
+
+    .stats-card {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .main-p {
+    }
+
+    #main-img{
+        display: none;
+    }
+
+    #main-img-desktop {
+        margin-left: auto;
+        border-radius: 0px 5px 5px 0px;
+        height: 100%;
+    }
+
+
+
+}
